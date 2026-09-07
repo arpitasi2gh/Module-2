@@ -29,3 +29,5 @@ export async function createThread(data) {
   const response = await apiClient.post("/api/threads", data);
   return response.data;
 }
+
+// added a comment to test the commit hook
